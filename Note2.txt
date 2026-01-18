@@ -1,0 +1,2 @@
+{ minimize: false }
+*adminController
