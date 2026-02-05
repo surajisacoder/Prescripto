@@ -114,7 +114,7 @@ Create a `.env` file in the root directory:
 ```bash
 cd backend
 npm install
-npm start
+npm run server
 ```
 
 Backend runs on:  
@@ -127,11 +127,24 @@ Backend runs on:
 ```bash
 cd frontend
 npm install
-npm start
+npm run dev
 ```
 
 Frontend runs on:  
 👉 http://localhost:5173
+
+---
+
+### 4️⃣ Run ADMIN
+
+```bash
+cd admin
+npm install
+npm run dev
+```
+
+Admin runs on:  
+👉 http://localhost:5174
 
 ---
 
