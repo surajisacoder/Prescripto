@@ -9,10 +9,11 @@ const Footer = () => {
         <div>
           <img className="mb-5 w-40" src={assets.logo} alt="" />
           <p className="w-full md:w-2/3 text-gray-600 leading-6">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex optio
-            temporibus reiciendis iste doloribus dolorum nesciunt quaerat ipsam
-            perspiciatis, iusto ea suscipit ipsum ad a corrupti quia est
-            assumenda quas.
+            Book appointments with trusted doctors in just a few clicks. Our
+            doctor booking app helps patients find specialists, check
+            availability in real time, and schedule visits effortlessly. Secure
+            profiles, instant confirmations, and reminders ensure a smooth
+            healthcare experience for everyone.
           </p>
         </div>
         {/* Center Section */}
@@ -29,8 +30,8 @@ const Footer = () => {
         <div>
           <p className="text-xl font-medium mb-5">GET IN TOUCH</p>
           <ul className="flex flex-col gap-2 text-gray-600">
-            <li>+1-212-456-7890</li>
-            <li>Suraj@Coder.com</li>
+            <li>+91-212-456-7890</li>
+            <li>support@docbook-app.com</li>
           </ul>
         </div>
       </div>

@@ -19,7 +19,7 @@ const About = () => {
           <p>
             Welcome to Prescripto – your trusted partner for easy and
             hassle-free doctor appointments. Book, manage, and consult with top
-            doctors anytime, anywhere
+            doctors anytime, anywhere.
           </p>
           <p>
             Prescripto helps you book doctor appointments, manage prescriptions,

@@ -18,12 +18,12 @@ const Contact = () => {
         <div className="flex flex-col justify-center items-start gap-6">
           <p className="font-semibold text-lg text-gray-600">OUR OFFICE</p>
           <p className="text-gray-500">
-            15 Purani Bazar, Lakhisarai <br />
-            Bihar, India
+            123, HealthCare Avenue <br />
+            City Center India
           </p>
           <p className="text-gray-500">
-            Tel: (91) 555-0132 <br />
-            Email: surajisacoder@gmail.com
+            Tel: +91 90000 00000 <br />
+            Email: contact@healthcare-demo.com
           </p>
           <p className="font-semibold text-lg text-gray-600">
             Careers at PRESCRIPTO

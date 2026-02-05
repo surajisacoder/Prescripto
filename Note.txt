@@ -1,61 +1,17 @@
 npm create vite@latest
 npm run dev
-rafc
-tailwind.config.js
-index.css
-*<html lang="en" class="scroll-smooth">
-*scrollTo(0,0)
-group-hover:block displays the element as block when the parent with group is hovered.
-leading-tight sets a tight line height, usually around 1.25, reducing vertical spacing between lines of text.
-flex-shrink-0 prevents the element from shrinking when there's not enough space in a flex container.
-grid-cols-auto  for setting column size in auto-placement. 
-*gridTemplateColumns: {
-  'auto': 'repeat(auto-fill, minmax(200px, 1fr))'
-}
-Meaning:
-'auto' is a custom key (you'll use it like grid-cols-auto).
-
-*'repeat(auto-fill, minmax(200px, 1fr))' creates as many columns as will fit, each at least 200px wide and expanding to fill remaining space (1fr).
-flex-1 makes the element grow and shrink as needed and take up all available space. 
-*grid-cols-[3fr_1fr_1fr] is a custom utility using arbitrary values that defines the grid to have 3 columns with widths 3fr, 1fr, and 1fr, respectively — giving the first column 3x more space than the others.
-leading-6 sets the line-height to 1.5rem (24px), controlling vertical spacing between lines of text.
-*outfit font-website
-*bottom-0 positions the element at the bottom edge (0 units) of its nearest relatively positioned ancestor (used with absolute or fixed).        
-*Appointment.jsx
+rafce
 
 *Imports the “Outfit” font family.
   Includes all font weights from 100 to 900 (thin → bold).
   Uses display=swap, meaning if the font isn’t loaded yet, text will be shown with a fallback font and then swapped to Outfit when ready.
 
-*Tailwind’s grid column classes use numbers or custom values, like:
-    grid-cols-1 → 1 column
-    grid-cols-2 → 2 columns
-    grid-cols-3 → 3 columns
-    or arbitrary values, e.g.
-    grid-cols-[auto auto]
-    → creates two auto columns.
-    Correct alternatives
-    If you want auto-sized columns, you can write:
-    grid grid-cols-[auto]
-    or for multiple auto columns:
-    grid grid-cols-[auto auto auto]
-    Or if you want a responsive auto-fill grid, use:
-    grid grid-cols-[repeat(auto-fill,minmax(200px,1fr))]
-
-    import.meta.env.VITE_BACKEND_URL;
-
-    URL.createObjectURL(docImg)
-     const formData = new FormData();
-    formData.append("image", docImg);
-
-    document.addEventListener("DOMContentLoaded", () => {
+  document.addEventListener("DOMContentLoaded", () => {
   displayEmoji();
   startTimer();
 });
 
-
 .focus()
-
 
 function shuffleOptions(options) {
   for (let i = options.length - 1; i >= 0; i--) {
