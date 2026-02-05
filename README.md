@@ -93,5 +93,5 @@ It allows patients to book appointments with doctors, doctors to manage schedule
 
 ### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/your-username/prescripto.git
+git clone https://github.com/surajisacoder/Prescripto.git
 cd prescripto
