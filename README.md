@@ -151,7 +151,7 @@ Admin runs on:
 ## 🤝 Support
 
 - **Developer**: Suraj Kumar  
-- **GitHub**: [https://github.com/your-username ](https://github.com/surajisacoder) 
+- **GitHub**: [https://github.com/surajisacoder] 
 
 ---
 
