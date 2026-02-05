@@ -1,5 +1,5 @@
 # Prescripto 🩺  
-### MERN Doctor Appointment Booking Application
+### Doctor Appointment Booking Application
 
 ![Prescripto Banner](./frontend/Home.png)
 
