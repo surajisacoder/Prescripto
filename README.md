@@ -95,3 +95,51 @@ It allows patients to book appointments with doctors, doctors to manage schedule
 ```bash
 git clone https://github.com/surajisacoder/Prescripto.git
 cd prescripto
+```
+
+---
+
+### 2️⃣ Environment Variables
+
+Create a `.env` file in the root directory:
+
+```env
+
+```
+
+---
+
+### 3️⃣ Run Backend
+
+```bash
+cd backend
+npm install
+npm start
+```
+
+Backend runs on:  
+👉 http://localhost:4000
+
+---
+
+### 4️⃣ Run Frontend
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+Frontend runs on:  
+👉 http://localhost:5173
+
+---
+
+## 🤝 Support
+
+- **Developer**: Suraj Kumar  
+- **GitHub**: [https://github.com/your-username ](https://github.com/surajisacoder) 
+
+---
+
+⭐ If you like this project, please consider giving it a **star**!
