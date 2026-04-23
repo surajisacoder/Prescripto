@@ -2,7 +2,6 @@ import validator from "validator";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 import userModel from "../models/userModel.js";
-import { json } from "express";
 import { v2 as cloudinary } from "cloudinary";
 import doctorModel from "../models/doctorModel.js";
 import appointmentModel from "../models/appointmentModel.js";
@@ -141,7 +140,7 @@ const bookAppointment = async (req, res) => {
     const userData = await userModel.findById(userId).select("-password");
 
     delete docData.slots_booked;
-
+  
     const appointmentData = {
       userId,
       docId,
@@ -192,7 +191,7 @@ const cancelAppointment = async (req, res) => {
     await appointmentModel.findByIdAndUpdate(appointmentId, {
       cancelled: true,
     });
-
+  
     // releasing doctor slot
 
     const { docId, slotDate, slotTime } = appointmentData;

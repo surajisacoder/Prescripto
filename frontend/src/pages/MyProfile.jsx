@@ -1,5 +1,4 @@
 import React, { useContext, useState } from "react";
-// import { assets } from "../assets/assets";
 import { AppContext } from "../context/AppContext";
 import { assets } from "../assets/assets";
 import axios from "axios";
@@ -42,7 +41,7 @@ const MyProfile = () => {
       );
       if (data.success) {
         toast.success(data.message);
-        
+
         await loadUserProfileData();
         setIsEdit(false);
         setImage(false);

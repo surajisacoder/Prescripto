@@ -25,4 +25,4 @@ app.get("/", (req, res) => {
   res.send("API WORKING");
 });
 
-app.listen(port, () => console.log("Server Started", port));
+app.listen(port, () => console.log("Server Started on", port));
