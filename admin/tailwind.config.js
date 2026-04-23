@@ -11,5 +11,3 @@ export default {
   plugins: [],
 }
 
-// npm install -D tailwindcss@3.4.17 postcss autoprefixer
-// npx tailwindcss init -p
