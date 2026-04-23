@@ -1,7 +1,7 @@
 # Prescripto 🩺  
-### MERN Doctor Appointment Booking Application
+### Doctor Appointment Booking Application
 
-![Prescripto Banner](./assets/prescripto.png)
+![Prescripto Banner](./frontend/Home.png)
 
 Prescripto is a **full-stack Doctor Appointment Booking Application** built using the **MERN stack (MongoDB, Express.js, React, Node.js)**.  
 It allows patients to book appointments with doctors, doctors to manage schedules, and admins to control the platform — all in one modern, scalable system.
@@ -93,5 +93,66 @@ It allows patients to book appointments with doctors, doctors to manage schedule
 
 ### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/your-username/prescripto.git
+git clone https://github.com/surajisacoder/Prescripto.git
 cd prescripto
+```
+
+---
+
+### 2️⃣ Environment Variables
+
+Create a `.env` file in the root directory:
+
+```env
+
+```
+
+---
+
+### 3️⃣ Run Backend
+
+```bash
+cd backend
+npm install
+npm run server
+```
+
+Backend runs on:  
+👉 http://localhost:4000
+
+---
+
+### 4️⃣ Run Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Frontend runs on:  
+👉 http://localhost:5173
+
+---
+
+### 4️⃣ Run ADMIN
+
+```bash
+cd admin
+npm install
+npm run dev
+```
+
+Admin runs on:  
+👉 http://localhost:5174
+
+---
+
+## 🤝 Support
+
+- **Developer**: Suraj Kumar  
+- **GitHub**: [https://github.com/surajisacoder] 
+
+---
+
+⭐ If you like this project, please consider giving it a **star**!
